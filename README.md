@@ -1,5 +1,11 @@
 # Peptide-Design-Hypothesis-Generation-LLM-Agent-for-Semiconductor-application
 
+# chemical_retriever.py
+* ChemicalRetriever 클래스 사용
+* PubChem API를 통한 유기 분자 검색
+* search_molecule(molecule_name): 화합물 정보 검색
+* generate_rag_context(molecule_data): RAG Context 생성
+
 # protGPT2_inference.py
 
 * inference 함수 사용
